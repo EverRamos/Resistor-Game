@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    background-color: #1b1a1a;
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    padding-bottom: 20em;
+    min-height: 100vh;
+}
+
+.titulo {
+    color: #f2f4f3;
+    position: relative;
+    margin-left: 39%;
+    margin-bottom: 75px;
+}
+
+.res { 
+    background-color: #1b1a1a;
+    position: absolute ;
+    margin-left: 30%;
+    z-index: 1;
+}
+
+.color1 {
+    position: absolute;
+    /*background-color: #a52a2a;*/
+    width: 20px;
+    height: 84px;
+    margin-left: 39.66%;
+    margin-top: 12px;
+    z-index: 100;
+}
+
+.color2 {
+    position: absolute;
+    /*background-color: #1b1a1a;*/
+    width: 21px;
+    height: 82px;
+    margin-left: 44.9%;
+    margin-top: 13px;
+    z-index: 100;
+}
+
+.color3 {
+    position: absolute;
+    background-color: red;
+    width: 21px;
+    height: 82px;
+    margin-left: 47.98%;
+    margin-top: 13px;
+    z-index: 100;
+}
+
+.color4 {
+    position: absolute;
+    background-color: goldenrod;
+    width: 19px;
+    height: 87px;
+    margin-left: 57.4%;
+    margin-top: 8px;
+    z-index: 100;
+}
+
+.cont-temporizador {
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+    color: #f2f4f3;
+}
+
+.cont-temporizador .bloque {
+    margin: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-temporizador .bloque div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #888;
+    box-shadow: 0px 0px 6px 2px #727272 inset;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.tit {
+    color: #f2f4f3;
+    display: flex;
+    justify-content: center;
+}
+
+.resistor {
+    color: #f2f4f3;
+    position: relative;
+    left: 47%;
+}
+
+.resistor .resistor1 {
+    position: relative;
+    bottom: 42px;
+    right: 5%;
+}
+
+.tole {
+    color: #f2f4f3;
+    position: relative;
+    left: 50%;
+}
+
+.tole .tole2 {
+    position: relative;
+    bottom: 85px;
+    left: 75px;
+}
+
+.tole .tole1 {
+    position: relative;
+    bottom: 128px;  
+}
+
+.btn {
+    padding: 5px;
+    color: #f2f4f3;
+    background-color: #49111c;
+    position: relative;
+    bottom: 80px;
+    left: 43%;
+}
+
+#valorRes {
+    color: #f2f4f3; 
+    position: relative;
+    left: 45%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #a9927d;
+    height: auto;
+    width: 100vw;
+    font-family: "open Sans";
+    padding-top: 20px;
+    color: #F8F1FF;
+    padding: -60px 0;
+    
+}
+
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_content h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1px;
+    margin-right: 55px;
+    
+    
+}
+
+.footer_content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+    margin-right: 100px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #F8F1FF;
+
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+} 
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #5e503f;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

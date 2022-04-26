@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistor Game</title>
+    <link rel="stylesheet" type="text/css" href="juego.css">
+    <link rel="icon" href="res1.ico">
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Lora:ital@1&family=Noto+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h1 class="titulo">Codigo de colorres</h1>
+
+    <div class="res">
+        <img src="res.jpg" alt="Resistor">
+    </div>
+
+    <div class="color1" id="c1"></div>
+    <div class="color2" id="c2"></div>
+    <div class="color3"></div>
+    <div class="color4"></div>
+
+<div class="cont-temporizador"> 
+    <div class="bloque">
+        <div class="minutos" id="minutos">--</div>
+        <p>MINUTOS</p>
+    </div>
+    <div class="bloque">
+        <div class="segundos" id="segundos">--</div>
+        <p>SEGUNDOS</p>
+    </div>
+</div>
+
+<div>
+    <h3 class="tit">¿Cual es el valor de la resitencia?</h3>
+</div>
+
+    <div class="resistor">
+        <h3>Ω</h3>
+        <div class="resistor1">
+            <input type="text" name="res" size="2"><br>
+        </div>
+    </div>
+    <div class="tole">
+        <h3 class="tole2">%:</h3>
+        <div class="tole1">
+            <input type="text" name="Tol" size="2"><br>
+        </div>
+    </div>
+
+    <input type="button" class="btn btn-info" value="COMPROBAR VALOR" id="vRes"><br>
+    <input type="button" value="VALOR" id="vRes2"><br>
+
+    <h4 id="valorRes"></h4>
+
+    <footer>
+        <div class="footer_content">
+            <h3>DesignApp</h3>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                
+            </ul>
+    
+        </div>
+    
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 DesignApp. designed by <span>Ever Ramos</span></p>
+        </div>
+    
+    </footer>
+
+
+    <script src="jueg.js"></script>
+<script src="juego.js" ></script>
+
+</body>
+</html>
